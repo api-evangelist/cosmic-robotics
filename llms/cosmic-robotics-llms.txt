@@ -1,0 +1,33 @@
+# Cosmic Robotics
+
+> Cosmic Robotics builds autonomous construction equipment to build critical
+> infrastructure. The first frontier: solar.
+
+Cosmic Robotics, Inc. designs and operates autonomous machines that take on the hardest,
+most dangerous jobs on a construction site, coordinated as a fleet by a single software
+layer. The largest infrastructure buildout in history needs new equipment; Cosmic builds it.
+First market: utility-scale solar energy, expanding to data center construction.
+
+## What we build
+
+- **Cosmic-1A**: a new class of autonomous construction equipment — robotic solar panel
+  installation for utility-scale energy. A unified, purpose-built platform for the toughest jobs on site.
+- **Constellation**: the coordination and control layer for jobsite autonomy — one system to
+  plan, dispatch, and monitor the fleet. https://constellation.cosmicrobotics.com
+
+## Company
+
+- Cosmic Robotics, Inc. — robotics / construction technology company, founded 2023,
+  based in the Dogpatch neighborhood of San Francisco.
+- Founders: James Emerick (Co-Founder & CEO), Lewis Jones (Co-Founder & CTO).
+- Contact: info@cosmicrobotics.com
+- Careers: https://jobs.ashbyhq.com/cosmic-robotics
+- LinkedIn: https://www.linkedin.com/company/cosmic-robotics
+- X / Twitter: https://x.com/cosmic_robotics
+- Wikidata: https://www.wikidata.org/wiki/Q140132104
+
+## Links
+
+- Home: https://www.cosmicrobotics.com/
+- Constellation (fleet software): https://constellation.cosmicrobotics.com
+- Open roles: https://jobs.ashbyhq.com/cosmic-robotics

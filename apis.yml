@@ -1,8 +1,30 @@
 aid: cosmic-robotics
 name: Cosmic Robotics
-description: Cosmic Robotics is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cosmic Robotics, Inc. designs and operates autonomous construction equipment
+  that takes on the hardest, most dangerous jobs on a construction site,
+  coordinated as a fleet by a single software layer. Its first market is
+  utility-scale solar energy, with expansion planned into data center
+  construction. The flagship Cosmic-1A is a purpose-built robotic platform for
+  solar panel installation, and Constellation is the coordination and control
+  layer that plans, dispatches, and monitors the robot fleet across a jobsite.
+  Founded in 2023 and based in the Dogpatch neighborhood of San Francisco, the
+  company is backed by Y Combinator. Cosmic Robotics is currently a hardware and
+  fleet-software company with no public developer API; this profile tracks its
+  identity and any agent-facing surfaces (such as its published llms.txt) as the
+  API Evangelist network enrichment pipeline monitors it for a future API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.cosmicrobotics.com/assets/img/og.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cosmic-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,48 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2023'
+x-headquarters: San Francisco, California, United States
+x-founders:
+- James Emerick (Co-Founder & CEO)
+- Lewis Jones (Co-Founder & CTO)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Robotics
+- Construction Technology
+- Automation
+- Solar Energy
+- Autonomous Systems
+- Fleet Management
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cosmic-robotics-domain-security.yml
+- type: Website
+  url: https://www.cosmicrobotics.com/
+- type: LLMsTxt
+  url: llms/cosmic-robotics-llms.txt
+- type: Careers
+  url: https://jobs.ashbyhq.com/cosmic-robotics
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cosmic-robotics
+- type: Twitter
+  url: https://x.com/cosmic_robotics
+- type: YouTube
+  url: https://www.youtube.com/@CosmicRobotics
+- type: Wikidata
+  url: https://www.wikidata.org/wiki/Q140132104
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

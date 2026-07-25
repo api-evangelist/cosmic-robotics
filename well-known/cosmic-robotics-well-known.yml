@@ -1,0 +1,43 @@
+generated: '2026-07-18'
+method: probed
+source: live probes of /.well-known/* on Cosmic Robotics hosts
+note: >-
+  No real .well-known discovery documents are published. On www the paths return
+  404. On constellation.cosmicrobotics.com every path returns HTTP 200 but serves
+  the single-page-app HTML shell (text/html), not a real document, so none are
+  captured. Absence recorded as valid negative data.
+hosts:
+- host: https://www.cosmicrobotics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://constellation.cosmicrobotics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    real: false
+    note: SPA HTML shell, not a security.txt
+  - path: /.well-known/openid-configuration
+    status: 200
+    real: false
+    note: SPA HTML shell, not OIDC discovery
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    real: false
+    note: SPA HTML shell, not RFC 8414 metadata
+  - path: /.well-known/api-catalog
+    status: 200
+    real: false
+    note: SPA HTML shell, not an API catalog
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    real: false
+    note: SPA HTML shell, not an ai-plugin manifest
